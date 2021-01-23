@@ -1,2 +1,2 @@
-# hangmanOutnew
-hangman its a game
+# hangmanOut
+simple game hangmanout
