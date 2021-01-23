@@ -35,6 +35,7 @@ body {
   border-radius: 20px;
   margin-left: 30px;
 }
+
 .btnBoxwin {
   animation: borderwin 0.5s ease;
   border: 1px solid #0aab41;
@@ -67,13 +68,10 @@ when right answer
   padding: 0px 16px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25),
     inset 2px 2px 6px rgba(0, 0, 0, 0.5);
-
   width: 48px;
   height: 45px;
-
   background: #3a3a3a;
   border-radius: 7px;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -133,12 +131,6 @@ when right answer
   padding-left: 100px;
 }
 
-.timerBox .app {
-  margin-left: 200px;
-  margin-top: -100px;
-  position: absolute;
-  /* text-align:center; */
-}
 .timerBox .namespan {
   margin-top: 50px;
   text-align: center;
@@ -164,7 +156,7 @@ when right answer
   height: 285px;
 }
 .hangCoir img {
-  position:relative;
+  position: relative;
   max-width: 100%;
   max-height: 100%;
   display: block;
@@ -173,10 +165,10 @@ when right answer
 .head {
   position: absolute;
   bottom: 33px;
-  left:67px;
+  left: 67px;
   /* left: 300px; */
   /* transform:translateX(300px); */
-  transform:scale(0);
+  transform: scale(0);
   transition: all 1s ease;
 }
 .body {
@@ -184,26 +176,26 @@ when right answer
   /* left: 300px; */
   /* transform:translateX(300px); */
   transition: all 1s ease;
-  transform:scale(0);
+  transform: scale(0);
 
-  left:50px;
+  left: 50px;
   bottom: -140px;
 }
 .hand1 {
   position: absolute;
   /* left: 300px; */
-  transform:scale(0);
+  transform: scale(0);
 
   /* transform:translateX(300px); */
   transition: all 1s ease;
-  left:28px;
+  left: 28px;
   bottom: -157px;
 }
 .hand2 {
   position: absolute;
-  left:120px;
+  left: 120px;
   /* left: 300px; */
-  transform:scale(0);
+  transform: scale(0);
 
   /* transform:translateX(300px); */
   transition: all 1s ease;
@@ -212,9 +204,9 @@ when right answer
 }
 .leg1 {
   position: absolute;
-  left:72px;
+  left: 72px;
   /* left: 300px; */
-  transform:scale(0);
+  transform: scale(0);
   /* transform:translateX(300px); */
   transition: all 1s ease;
 
@@ -223,9 +215,9 @@ when right answer
 }
 .leg2 {
   position: absolute;
-  left:85px;
+  left: 85px;
   /* left: 300px; */
-  transform:scale(0);
+  transform: scale(0);
   /* transform:translateX(300px); */
   transition: all 1s ease;
 
@@ -311,396 +303,387 @@ button:focus {
   box-shadow: 0 0;
   transform: scale(0.95);
 }
- 
+
 /*Responsive*/
 
 @media (max-width: 1300px) {
-
-
   .inputans {
-    position :relative;
-    left:-80px;
-    z-index:100;
-    left:-200px;
+    position: relative;
+    left: -80px;
+    z-index: 100;
+    left: -200px;
   }
 }
 @media (max-width: 1100px) {
-
-  body{
-    background-color:violet;
+  body {
+    background-color: violet;
   }
   .inputans {
-    position :relative;
-    left:-200px;
-    z-index:100;
-     
+    position: relative;
+    left: -200px;
+    z-index: 100;
   }
 }
 
 @media (max-width: 1055px) {
-
-  body{
-    background-color:yellow;
+  body {
+    background-color: yellow;
   }
   .hangCoir img {
-    position :relative;
- 
- 
-     
+    position: relative;
   }
-  .hangCoir svg{
-    position:absolute;
+  .hangCoir svg {
+    position: absolute;
   }
-  .inputans{
-   
+  .inputans {
     border-width: 0 0 22px 0;
     border-bottom: 4px solid #54d9f7;
     margin: 8px;
     width: 22px;
-    left:-140px;
-    font-size:15px;
-    text-align:center;
-    font-family:'Poppins', sans-serif;
-    
-
-  
+    left: -140px;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
   }
 }
 @media (max-width: 989px) {
-  
-   
-  .hangCoir svg{
-    position:absolute;
+  .hangCoir svg {
+    position: absolute;
   }
-   .inputans{
+  .inputans {
     border-width: 0 0 22px 0;
     border-bottom: 4px solid #54d9f7;
     margin: 8px;
     width: 22px;
-    left:-140px;
-   }
-   .btnBox{
-    position:relative;
-    top:90px;
-    z-index:100;
+    left: -140px;
+  }
+  .btnBox {
+    position: relative;
+    top: 90px;
+    z-index: 100;
     padding: 12px 9px;
     width: 640px;
     height: 170px;
-   }
-   .btnHeading{
-    position:relative;
-    top:90px;
+  }
+  .btnHeading {
+    position: relative;
+    top: 90px;
   }
 }
- 
+
 @media (max-width: 914px) {
-  .btnBox{
-    position:relative;
-    top:90px;
-    z-index:100;
+  .btnBox {
+    position: relative;
+    top: 90px;
+    z-index: 100;
     padding: 12px 9px;
     width: 640px;
     height: 170px;
+  }
+  .btnHeading {
+    position: relative;
+    top: 90px;
+  }
+  .hangCoir img {
+    position: relative;
 
-  }
-  .btnHeading{
-    position:relative;
-    top:90px;
-  }
-  .hangCoir img{
-    position :relative;
-     
-    height:192px;
-    left:60px;
+    height: 192px;
+    left: 60px;
   }
 }
 @media (max-width: 840px) {
-  .btnBox{
+  .btnBox {
     width: 636px;
     height: 150px;
     padding: 10px 7px;
     position: relative;
-    top:110px;
+    top: 110px;
   }
-  .btnHeading{
+  .btnHeading {
     position: relative;
-    top:110px;
+    top: 110px;
   }
-  .hangCoir img{
-    position :relative;
-    top:200px;
-    height:170px;
-    left:90px;
+  .hangCoir img {
+    position: relative;
+    top: 200px;
+    height: 170px;
+    left: 90px;
   }
-  .inputans{
-    position:relative;
-    left:-170px;
-    bottom:30px;
+  .inputans {
+    position: relative;
+    left: -170px;
+    bottom: 30px;
   }
 }
 
-@media(max-width: 800px){
-  body{
+@media (max-width: 800px) {
+  body {
     /* background-color:aqua; */
-    background-color:white;
-    overflow:hidden;
-
+    background-color: white;
+    overflow: hidden;
   }
-.btnHeading{
-  font-size:13px;
-}
-.inputans{
-  line-height:20px;
-  padding-left:0;
-}
-  .btnBox{
-    margin:0 auto;
-    padding-left:100px;
-    margin-bottom:20px;
+  .btnHeading {
+    font-size: 13px;
   }
-  .alpha{
-
-    height:30px;
-    width:30px;
-    font-size:15px;
-    padding:0;
-    line-height:20px;
-   
-    
+  .inputans {
+    line-height: 20px;
+    padding-left: 0;
   }
-  .namespan{
-    width:100%;
-    height:auto;
-    position:absolute;
-    top:-20px;
-
+  .btnBox {
+    margin: 0 auto;
+    padding-left: 100px;
+    margin-bottom: 20px;
   }
- .namespan .inputans{
-    top:10px;
-    left:-400px;   
-    z-index:952;
-    
+  .alpha {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    padding: 0;
+    line-height: 20px;
+  }
+  .namespan {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -20px;
+  }
+  .namespan .inputans {
+    top: 10px;
+    left: -400px;
+    z-index: 952;
+  }
 
- }
-
- .hangCoir img{
-
-  width:120px;
-  height:150px;
-  top:0px;
-
- }
- .head{
-   top:95px;
-   left:130px;
-   transform:scale(0);
-   z-index:950;
-   height:40px;
-   width:40px;
- }
- .body{
-   transform:scale(0);
-   height:105px;
-   width:105px;
-   top:140px;
-   z-index:950;
-   left:100px;
- }
- .hand1{
-   transform:scale(0);
-   height:90px;
-   width:90px;
-   top:155px;
-   left:70px;
- }
- .hand2{
-   height:90px;
-   width:90px;
-   left:140px;
-   top:145px;
-   z-index:951;
-   /* transform:rotate(-10deg); */
-   transform:scale(0);
-
- }
- .leg1{
-   transform:scale(0);
-   height:130px;
-   width:140px;
-   left:90px;
-   top:245px;
-   z-index:950;
-
- }
- .leg2{
-   transform:scale(0);
-   height:40px;
-   width:40px;
-   top:350px;
-   left:130px;
-   z-index:900;
- }
-
+  .hangCoir img {
+    width: 120px;
+    height: 150px;
+    top: 0px;
+  }
+  .head {
+    top: 95px;
+    left: 130px;
+    transform: scale(0);
+    z-index: 950;
+    height: 40px;
+    width: 40px;
+  }
+  .body {
+    transform: scale(0);
+    height: 105px;
+    width: 105px;
+    top: 140px;
+    z-index: 950;
+    left: 100px;
+  }
+  .hand1 {
+    transform: scale(0);
+    height: 90px;
+    width: 90px;
+    top: 155px;
+    left: 70px;
+  }
+  .hand2 {
+    height: 90px;
+    width: 90px;
+    left: 140px;
+    top: 145px;
+    z-index: 951;
+    /* transform:rotate(-10deg); */
+    transform: scale(0);
+  }
+  .leg1 {
+    transform: scale(0);
+    height: 130px;
+    width: 140px;
+    left: 90px;
+    top: 245px;
+    z-index: 950;
+  }
+  .leg2 {
+    transform: scale(0);
+    height: 40px;
+    width: 40px;
+    top: 350px;
+    left: 130px;
+    z-index: 900;
+  }
 }
 
-@media (max-width: 700px){
-  body{
-    background-color:aqua;
+@media (max-width: 700px) {
+  body {
+    background-color: aqua;
   }
 
-  .btnBox{
-    padding-left:50px;
-    width:80%;
-    position:relative;
-    margin-top:0;
+  .btnBox {
+    padding-left: 50px;
+    width: 80%;
+    position: relative;
+    margin-top: 0;
   }
-.overlay-win, .overlay{
-  z-index:1000
+  .overlay-win,
+  .overlay {
+    z-index: 1000;
+  }
 }
-  
-
-}
-@media (max-width:650px){
-  body{
-    background-color:purple;
+@media (max-width: 650px) {
+  body {
+    background-color: purple;
   }
-  .btnBox{
-    padding-left:40px;
+  .btnBox {
+    padding-left: 40px;
   }
-
 }
 
 /*for tablets*/
-@media (max-width:611px)
-{
-  .alpha{
-    height:25px;
-    width:27px;
-    font-size:13px;
-    padding:0;
-    
-    line-height:20px;
-   font-family:'Poppins', sans-serif;
-  }
-  .btnBox{
-    padding-left:20px;
-    padding-right:0px;
+@media (max-width: 611px) {
+  .alpha {
+    height: 25px;
+    width: 27px;
+    font-size: 13px;
+    padding: 0;
 
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
   }
-
+  .btnBox {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
 }
-@media (max-width:539px){
-     .hangCoir img{
-      top:140px;
-      height:90px;
-      left:120px;
-      width:90px;
-     }
-     .inputans{/*cant style*/
-       position: relative;
-       top:200px;
-     }
-     .base-timer{
-       display:none;
-     }
-     .btnBox{
-       top:270px;
-       
-     }
-     .alpha{
-       width:25px;
-       height:33px;
-       font-size:12px;
-     }
-     .btnHeading{
-      top:270px;
-     }
-    
-}
- 
 
-@media(max-width:400px){
-
-  .btnHeading{
-    top:250px;
-    left:-40px;
-    font-size:13px;
+@media (max-width: 520px) {
+  body {
+    background-color: white;
   }
 
+  .btnHeading {
+    top: -20px;
+    /* left: -40px; */
+    left: -100px;
+    font-size: 10px;
+  }
+  .btnHeading h1 {
+    margin: 0;
+  }
 
-  .btnBox{
-    padding:0;
-    width:95%;
-    
-    height:100px;
-    top:270px;
+  .btnBox {
+    padding: 0;
+    width: 95%;
+    height: 100px;
+    top: 0px;
     position: relative;
+    margin: 0 auto;
+    padding-left: 3px;
   }
 
-  .alpha{
-    width:20px;
-    height:22px;
-    font-size:12px;
-   font-family:'Poppins', sans-serif;
+  .alpha {
+    width: 20px;
+    height: 22px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 2px;
   }
 
-  .inputans:first-child{
-
-    left:10px;
-
+  .timerBox {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* background-color: yellow; */
+  }
+  .namespan {
+    width: 100%;
+    margin-bottom: 200px;
+    left: 100px;
+    text-align: start;
   }
 
-  .hangCoir img{
-    left:170px;
-    
+  .inputans {
+   
+    left:20px;
   }
-  .head{
-    left:190px;
 
+  .hangCoir {
+    position: absolute;
+    top: 50px;
+    height: 100%;
+    width: 100px;
+    /* background-color: red; */
+    left: 220px;
   }
-  .body{
 
-    left:160px;
-    
-
+  .hangCoir img {
+    position: absolute;
+    display: block;
+    left: -2px;
+    top: 80px;
+    z-index: 900;
+    height: 100px;
+    width: 70px;
   }
-  .hand1{
 
-    left:130px;
-    
+  .head {
+    position: absolute;
+    left: 20px;
+    top: 145px;
+    /* transform:scale(1); */
+    width: 25px;
+    height: 25px;
+    /* left: 190px; */
   }
-  .hand2{
-    left:200px;
-
+  .body {
+    /* left: 160px; */
+    /* transform:scale(1); */
+    position: absolute;
+    left: 0px;
+    top: 175px;
+    width: 70px;
+    height: 70px;
   }
-  .leg1{
-
-    left:150px;
-    
-
+  .hand1 {
+    /* left: 130px; */
+    /* transform:scale(1); */
+    position: absolute;
+    left: -18px;
+    top: 185px;
+    height: 60px;
+    width: 60px;
   }
-  .leg2{
+  .hand2 {
+    /* left: 200px; */
+    /* transform:scale(1); */
+    position: absolute;
+    left: 28px;
+    height: 60px;
+    width: 60px;
+    top: 181px;
+  }
+  .leg1 {
+    /* left: 150px; */
+    /* transform:scale(1); */
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    left: -6px;
+  }
+  .leg2 {
+    /* left: 190px; */
+    position: absolute;
+    /* transform:scale(1); */
+    left: 17px;
+    height: 25px;
+    width: 25px;
+    top: 317px;
+  }
 
-    left:190px;
-    
-
+  .second,
+  .third {
+    margin: 0;
   }
 }
- 
-
-
-
-
-
-
-
-
-
-
 
 /* keep this style at the most bottom always */
-@media(min-width:300px){
-  body, html{
-    overflow:hidden;
+@media (min-width: 300px) {
+  body,
+  html {
+    overflow: hidden;
   }
 }
